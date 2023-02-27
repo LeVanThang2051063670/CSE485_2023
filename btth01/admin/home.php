@@ -22,66 +22,79 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./">Trang chủ</a>
+                        <a class="nav-link active fw-bold" aria-current="page" href="./">Trang chủ</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../index.php">Trang ngoài</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active fw-bold" href="category.php">Thể loại</a>
+                        <a class="nav-link" href="category.php">Thể loại</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="author.php">Tác giả</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="article.php">Bài viết</a>
-                    </li>
+                    </li> 
+                    
                 </ul>
+                <div class="h3">
+                    <a class="navbar-brand" href="index.php">Logout</a>
+                </div>
                 </div>
             </div>
         </nav>
-
     </header>
     <main class="container mt-5 mb-5">
         <!-- <h3 class="text-center text-uppercase mb-3 text-primary">CẢM NHẬN VỀ BÀI HÁT</h3> -->
         <div class="row">
-            <div class="col-sm">
-                <a href="add_category.php" class="btn btn-success">Thêm mới</a>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Tên tac gia</th>
-                            <th>Sửa</th>
-                            <th>Xóa</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Sưu tầm 
-                        
-                            </td>
-                            <td>
-                                <a href="edit_category.php?id=1"><i class="fa-solid fa-pen-to-square"></i></a>
-                            </td>
-                            <td>
-                                <a href=""><i class="fa-solid fa-trash"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Sandy</td>
-                            <td>
-                                <a href="edit_category.php?id=2"><i class="fa-solid fa-pen-to-square"></i></a>
-                            </td>
-                            <td>
-                                <a href=""><i class="fa-solid fa-trash"></i></a>
-                            </td>
-                        </tr>
-                       
-                    </tbody>
-                </table>
+            <div class="col-sm-3">
+                <div class="card mb-2" style="width: 100%;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            <a href="" class="text-decoration-none">Người dùng</a>
+                        </h5>
+                        <h5 class="h1 text-center">
+                            110
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card mb-2" style="width: 100%;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            <a href="" class="text-decoration-none">Thể loại</a>
+                        </h5>
+                        <h5 class="h1 text-center">
+                            10
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card mb-2" style="width: 100%;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            <a href="" class="text-decoration-none">Tác giả</a>
+                        </h5>
+                        <h5 class="h1 text-center">
+                            20
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card mb-2" style="width: 100%;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            <a href="" class="text-decoration-none">Bài viết</a>
+                        </h5>
+                        <h5 class="h1 text-center">
+                            110
+                        </h5>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -90,4 +103,3 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
-</html>
